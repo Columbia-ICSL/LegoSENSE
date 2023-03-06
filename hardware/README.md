@@ -14,8 +14,8 @@ There are three module development boards you can use:
 
 | Development Board Type 1                       | Development Board Type 2                       | Development Board Type 3                       |
 | ---------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
-| ![module-dev-1-f](./assets/module-dev-1-f.png) | ![module-dev-1-f](./assets/module-dev-1-f.png) | ![module-dev-1-f](./assets/module-dev-1-f.png) |
-| ![module-dev-1-b](./assets/module-dev-1-b.png) | ![module-dev-1-b](./assets/module-dev-1-b.png) | ![module-dev-1-b](./assets/module-dev-1-b.png) |
+| ![module-dev-1-f](./assets/module-dev-1-f.png) | ![module-dev-2-f](./assets/module-dev-2-f.png) | ![module-dev-1-f](./assets/module-dev-1-f.png) |
+| ![module-dev-1-b](./assets/module-dev-1-b.png) | ![module-dev-2-b](./assets/module-dev-2-b.png) | ![module-dev-1-b](./assets/module-dev-1-b.png) |
 
 <TODO: content>
 
