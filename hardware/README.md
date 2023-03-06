@@ -10,6 +10,13 @@ Acquire a sensor evaluation board (breakout board) and make it work with Raspber
 
 Connect the evaluation board to a module development board. Change the pin definitions and 
 
+There are three module development boards you can use:
+
+| Development Board Type 1                       | Development Board Type 2                       | Development Board Type 3                       |
+| ---------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| ![module-dev-1-f](./assets/module-dev-1-f.png) | ![module-dev-1-f](./assets/module-dev-1-f.png) | ![module-dev-1-f](./assets/module-dev-1-f.png) |
+| ![module-dev-1-b](./assets/module-dev-1-b.png) | ![module-dev-1-b](./assets/module-dev-1-b.png) | ![module-dev-1-b](./assets/module-dev-1-b.png) |
+
 <TODO: content>
 
 #### Step 3: Port code into LegoSENSE Framework
@@ -108,4 +115,4 @@ The layout for the connector is shown below. It includes pins for the common sen
 - `RX, TX`: UART
 - `ADC0, ADC1`: Two analog input channels
 
-![21 Pin Connector Layout](./assets/21pin-layout.png)
+<img src="./assets/21pin-layout.png" width="400px" />

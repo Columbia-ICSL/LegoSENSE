@@ -5,7 +5,7 @@
   (paper "USLetter")
 
   (title_block
-    (title "SensorHub Module Development Board")
+    (title "LegoSENSE Module Development Board")
     (date "2021-10-12")
     (rev "V1.0")
     (company "Columbia-ICSL")
@@ -111,11 +111,11 @@
         )
       )
     )
-    (symbol "ICSL:SensorHub_Module_CONN_V1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "ICSL:LegoSENSE_Module_CONN_V1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 15.24 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "SensorHub_Module_CONN_V1" (id 1) (at 0 13.97 0)
+      (property "Value" "LegoSENSE_Module_CONN_V1" (id 1) (at 0 13.97 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "ICSL:Amphenol_91911-31321LF_PLUG" (id 2) (at 0 0 0)
@@ -136,7 +136,7 @@
       (property "ki_description" "CONN HDR 21POS SMD GOLD" (id 7) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "SensorHub_Module_CONN_V1_0_0"
+      (symbol "LegoSENSE_Module_CONN_V1_0_0"
         (polyline
           (pts
             (xy 6.35 12.7)
@@ -149,7 +149,7 @@
           (fill (type none))
         )
       )
-      (symbol "SensorHub_Module_CONN_V1_1_1"
+      (symbol "LegoSENSE_Module_CONN_V1_1_1"
         (pin power_out line (at 8.89 10.16 180) (length 2.54)
           (name "12V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1017,11 +1017,11 @@
     (pin "1" (uuid 1713e383-8152-433e-b906-2d7b5184a29a))
   )
 
-  (symbol (lib_id "ICSL:SensorHub_Module_CONN_V1") (at 242.57 31.75 0) (unit 1)
+  (symbol (lib_id "ICSL:LegoSENSE_Module_CONN_V1") (at 242.57 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608870b5)
     (property "Reference" "J1" (id 0) (at 242.57 15.875 0))
-    (property "Value" "SensorHub_Module_CONN_V1" (id 1) (at 242.57 18.1864 0))
+    (property "Value" "LegoSENSE_Module_CONN_V1" (id 1) (at 242.57 18.1864 0))
     (property "Footprint" "ICSL:Amphenol_91911-31321LF_PLUG" (id 2) (at 242.57 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1694,7 +1694,7 @@
       (reference "H2") (unit 1) (value "GND") (footprint "ICSL:M1502-B-2545-AL-TOP")
     )
     (path "/00000000-0000-0000-0000-0000608870b5"
-      (reference "J1") (unit 1) (value "SensorHub_Module_CONN_V1") (footprint "ICSL:Amphenol_91911-31321LF_PLUG")
+      (reference "J1") (unit 1) (value "LegoSENSE_Module_CONN_V1") (footprint "ICSL:Amphenol_91911-31321LF_PLUG")
     )
     (path "/00000000-0000-0000-0000-00006168bf3e"
       (reference "J2") (unit 1) (value "Conn_01x04") (footprint "ICSL:PinHeader_1x04_2.54mm_NoSilk")
