@@ -8,16 +8,18 @@ Acquire a sensor evaluation board (breakout board) and make it work with Raspber
 
 #### Step 2: Switch to Module Development Board
 
-Connect the evaluation board to a module development board. Change the pin definitions and 
+In this step, you will move the sensor circuit to a module-like development board that can be plugged into LegoSENSE's carrier board.
 
-There are three module development boards you can use:
+There are three module development boards you can use as shown below. On the top half of the board, the 21-Pin connector is broken out for soldering; on the bottom half of the board, type 1 employs a breadboard-style layout, type 2 employs a protoboard-style layout and type 3 includes the common 1.25mm JST connector and 1.0mm I2C connector (STEMMA QT / Qwiic).
 
 | Development Board Type 1                       | Development Board Type 2                       | Development Board Type 3                       |
 | ---------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
-| ![module-dev-1-f](./assets/module-dev-1-f.png) | ![module-dev-2-f](./assets/module-dev-2-f.png) | ![module-dev-1-f](./assets/module-dev-1-f.png) |
-| ![module-dev-1-b](./assets/module-dev-1-b.png) | ![module-dev-2-b](./assets/module-dev-2-b.png) | ![module-dev-1-b](./assets/module-dev-1-b.png) |
+| ![module-dev-1-f](./assets/module-dev-1-f.png) | ![module-dev-2-f](./assets/module-dev-2-f.png) | ![module-dev-3-f](./assets/module-dev-3-f.png) |
+| ![module-dev-1-b](./assets/module-dev-1-b.png) | ![module-dev-2-b](./assets/module-dev-2-b.png) | ![module-dev-3-b](./assets/module-dev-3-b.png) |
 
-<TODO: content>
+Choose the one that's most convenient for you to work with, and move the circuit from breadboard to the development board and solder it on there.
+
+Plug the evaluation board into carrier board. Depending on which slot you've plugged in, you will need to change the pin definitions in your sensor driver code to match the pin that the specific carrier board module slot uses. You can consult the table under [Carrier Board Bus Layout](#Carrier Board Bus Layout).
 
 #### Step 3: Port code into LegoSENSE Framework
 
