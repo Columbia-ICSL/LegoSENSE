@@ -1,12 +1,13 @@
+# LegoSENSE Development Guide - Hardware
 ## Getting Started: hardware design steps
 
-#### Step 1: Get Sensor to Work on Breadboard
+### Step 1: Get Sensor to Work on Breadboard
 
 Acquire a sensor evaluation board (breakout board) and make it work with Raspberry Pi. You may consult the sensor manufacturer for example codes and getting started guides.
 
 <TODO: content>
 
-#### Step 2: Switch to Module Development Board
+### Step 2: Switch to Module Development Board
 
 In this step, you will move the sensor circuit to a module-like development board that can be plugged into LegoSENSE's carrier board.
 
@@ -19,13 +20,13 @@ There are three module development boards you can use as shown below. On the top
 
 Choose the one that's most convenient for you to work with, and move the circuit from breadboard to the development board and solder it on there.
 
-Plug the evaluation board into carrier board. Depending on which slot you've plugged in, you will need to change the pin definitions in your sensor driver code to match the pin that the specific carrier board module slot uses. You can consult the table under [Carrier Board Bus Layout](#Carrier Board Bus Layout).
+Plug the evaluation board into carrier board. Depending on which slot you've plugged in, you will need to change the pin definitions in your sensor driver code to match the pin that the specific carrier board module slot uses. You can consult the table under [Carrier Board Bus Layout](#carrier-board-bus-layout).
 
-#### Step 3: Port code into LegoSENSE Framework
+### Step 3: Port code into LegoSENSE Framework
 
 <TODO: content>
 
-#### Step 4: Design and Manufacture Module PCB
+### Step 4: Design and Manufacture Module PCB
 
 <TODO: content>
 
