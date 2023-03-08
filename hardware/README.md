@@ -32,7 +32,13 @@ In this step, we will port the working sensor driver code into LegoSENSE's frame
 
 ### Step 4: Design and Manufacture Module PCB
 
-In this step, we will create the final version of the sensor module PCB. 
+In this step, we will create the final version of the sensor module PCB. A template sensor module PCB project is provided in `/hardware/sensor-modules/template`.
+
+| Template Sensor Module PCB (front)                  | Template Sensor Module PCB (back)                   |
+| --------------------------------------------------- | --------------------------------------------------- |
+| <img src="./assets/template-f.png" width="400px" /> | <img src="./assets/template-b.png" width="400px" /> |
+
+
 
 1. Duplicating the module template PCB file. This template file is pre-populated with the LegoSENSE standard 21-Pin connector and a EEPROM for auto-recognition of the module. Do not edit this part.
 2. Move all the sensor components and peripherials onto the bottom part of the module PCB.
@@ -111,9 +117,9 @@ dtoverlay=uart5
 ## Module Connector
 The universal connector used for all modules and carrier boards is a pair of 21 Pin Mezzanine Connectors shown below.
 
-| Adapter Board - 21 Pin Mezzanine Connector Receipt | Sensor Module - 21 Pin Mezzanine Connector Plug |
-| -------------------------------------------------- | ----------------------------------------------- |
-| ![91911-31321LF](./assets/21pin-rcpt.png)          | ![91931-31121LF](./assets/21pin-plug.png)       |
+| Adapter Board Side<br/>21 Pin Mezzanine Connector Receipt | 21 Pin Mezzanine Connector Plug <br/>Sensor Module Side |
+| --------------------------------------------------------- | ------------------------------------------------------- |
+| <img src="./assets/21pin-rcpt.png" width="300px" />       | <img src="./assets/21pin-plug.png" width="300px" />     |
 
 The layout for the connector is shown below. It includes pins for the common sensor data communication protocols as follows:
 
