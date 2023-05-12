@@ -1,3 +1,6 @@
 [submodule "hardware/kicad-library"]
 	path = hardware/kicad-library
 	url = git@github.com:Columbia-ICSL/kicad-library.git
+[submodule "software"]
+	path = software
+	url = git@github.com:Columbia-ICSL/LegoSENSE-Software.git
